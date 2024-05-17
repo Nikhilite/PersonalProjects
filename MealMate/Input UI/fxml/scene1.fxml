@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MealTracker.IngredientListController">
+   <children>
+      <HBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <VBox prefHeight="400.0" prefWidth="306.0">
+               <children>
+                  <HBox prefHeight="30.0" prefWidth="306.0">
+                     <children>
+                        <TextField fx:id="textInput" prefHeight="25.0" prefWidth="159.0" />
+                        <Label prefHeight="27.0" prefWidth="81.0" text="Name" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="306.0">
+                     <children>
+                        <TextField prefHeight="25.0" prefWidth="53.0" />
+                        <TextField prefHeight="25.0" prefWidth="53.0" />
+                        <TextField prefHeight="25.0" prefWidth="53.0" />
+                        <Label prefHeight="26.0" prefWidth="125.0" text="Carbs/Protein/Fat (g)" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="400.0" prefWidth="222.0">
+               <children>
+                  <Label text="Ingredients" />
+                  <ListView fx:id="createIngredientList" prefHeight="252.0" prefWidth="303.0" />
+                  <Button fx:id="createButton" mnemonicParsing="false" onAction="#createIngredient" text="create" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
