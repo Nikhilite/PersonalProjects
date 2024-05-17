@@ -15,7 +15,7 @@ This repository contains a collection of personal projects I've worked on, spann
 Here's a brief overview of the main projects in this repository:
 
 1. **CDA: Covid Data Analyzer**: This program was programmed as a part of my high-school group project.This program is a versatile and user-friendly tool designed to help individuals and health departments navigate through comprehensive Covid-19 data. The project, developed in Python, utilizes data collected from the Worldometers website and stored in CSV format, making it accessible and easy to update.
-Langguage Used: Python
+Language Used: Python
 
 2. **NPL Text to Speech I**: This program is created using the SpaCy library in python to show how to process natural language. Tokenization, part-ofspeech tagging, named entity recognition, and other NLP activities are all carried out using the well-linked and potent Python module SpaCy.
 Language Used : Python
